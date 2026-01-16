@@ -1,0 +1,14 @@
+# Block everything
+*
+
+# Except these:
+!.gitignore
+
+# Config folders I want to track
+!/i3/
+!/neofetch/
+!/alacritty/
+!/polybar/
+!/rofi/    
+!/picom/   
+
