@@ -73,7 +73,7 @@ bindsym $mod+Return exec alacritty
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym Ctrl+w kill
 
 # start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun -theme ~/.config/rofi/themes/something.rasi -font "Gohufont 11 Nerd Font Propo 11"
