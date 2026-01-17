@@ -36,7 +36,7 @@ exec --no-startup-id nm-applet
 
 #PUT CUSTOM AUTOEXECS HERE. This section is dedicated for custom auto execs of different apps/services outside of i3
 exec --no-startup-id flameshot
-exec_always picom --config ~/.config/picom/picom.conf -b
+exec_always --no-startup-id pkill picom; sleep 0.5; picom --backend glx --config ~/.config/picom/picom.conf
 exec_always --no-startup-id autotiling
 
 # Use pactl to adjust volume in PulseAudio.
